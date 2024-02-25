@@ -3,6 +3,11 @@
 This repository is the official implementation of [CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models](https://arxiv.org/abs/2302.04012). 
 
 ## Code and Data
+
+### Data
+ - Download CodeLMSec benchmark: [**link**](https://drive.google.com/file/d/1c8aJYdwmpyB1OClK7uacAGz2LEyDw98Q/view?usp=drive_link)
+ - Download CodeQL queries: [**link**](https://drive.google.com/file/d/1bm7vxDmivb9kEv8m0hTQ79CkJ2swcykq/view?usp=drive_link)
+### Code
 Under construction :construction_worker::construction:
 
 ## Abstract
