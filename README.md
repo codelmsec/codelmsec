@@ -7,8 +7,6 @@ This repository is the official implementation of [CodeLMSec Benchmark: Systemat
 ### Data
  - Download CodeLMSec benchmark: [**link**](https://drive.google.com/file/d/1c8aJYdwmpyB1OClK7uacAGz2LEyDw98Q/view?usp=drive_link)
  - Download CodeQL queries: [**link**](https://drive.google.com/file/d/1bm7vxDmivb9kEv8m0hTQ79CkJ2swcykq/view?usp=drive_link)
-### Code
-Under construction :construction_worker::construction:
 
 ## Abstract
 Large language models (LLMs) for automatic code generation have recently achieved breakthroughs in several programming tasks. Their advances in competition-level programming problems have made them an essential pillar of AI-assisted pair programming, and tools such as GitHub Copilot have emerged as part of the daily programming workflow used by millions of developers. Training data for these models is usually collected from the Internet (e.g., from open-source repositories) and is likely to contain faults and security vulnerabilities. This unsanitized training data can cause the language models to learn these vulnerabilities and propagate them during the code generation procedure. While these models have been extensively evaluated for their ability to produce functionally correct programs, there remains a lack of comprehensive investigations and benchmarks addressing the security aspects of these models.
