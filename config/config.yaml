@@ -1,0 +1,43 @@
+# config/config.yaml
+
+# ===============================
+# Data Configuration
+# ===============================
+data:
+  # Path to the primary dataset containing prompt-code pairs
+  prompt_code_pairs: "data/prompt_code_pairs.json"
+  
+  # Path to the CodeQL message to CWE (Common Weakness Enumeration) mapping file
+  codeqlmsg_to_cwe: "data/codeqlmsg_to_cwe.json"
+
+# ===============================
+# Paths Configuration
+# ===============================
+paths:
+  # Base directory for all output files
+  outputs: "outputs"
+  
+  # Subdirectories within the outputs directory for various outputs
+  few_shot_prompts: "few_shot_prompts"
+  non_secure_prompts: "non_secure_prompts"
+  generated_code: "generated_code"
+  vulnerability_reports: "vulnerability_reports"
+  final_reports: "final_reports"
+
+# ===============================
+# Prompt Generation Configuration
+# ===============================
+prompt_generation:
+  number_of_fs_prompts: 5  # Number of few-shot prompts to generate
+  number_of_examples_per_cwe: 4  # Number of examples per CWE
+  # You can add more prompt generation-specific parameters here
+
+# ===============================
+# Models Configuration
+# ===============================
+
+
+
+# ===============================
+# End of config.yaml
+# ===============================
